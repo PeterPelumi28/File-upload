@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIWES</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <marquee behavior="left" direction="sideways"><h1>Welcome to my website</h1></marquee>
+    <marquee behavior="center" direction="down"><h2>About Artificial Intelligience</h2></marquee>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptas, quisquam esse, sed earum, fuga voluptatum nemo blanditiis vel sunt optio quo officiis quidem rem consequuntur praesentium unde saepe architecto!
+    </p>
+    <p style="color:black; background-color: rgb(15, 255, 75)"> <b>Make your choice</b></p> <br><br>
+
+
+
+    <div>
+    <h2 style="font-size: 30px;text-align: left;"> Departments in Fcf</h2>
+      <div class="pet">
+    <h3>Computer Science Department</h3>
+    <p>Computer Science Department was established in 2022. There are xxxx fulltime Lecturers in the department. It offers Courses in xxxxxx
+    </p>
+      </div>
+
+      </div>
+    <div class="cep">
+        <h3>Agric Science Department</h3>
+        <p> Agric Science Department was established in 2009. There are xxxx fulltime Lecturers in the department. It offers Courses in xxxxxx
+        </p>
+         </div>
+
+    
+          <div class="pol">
+            <h3>Holticulture Department</h3>
+            <p>Holticulture was established in 1999. There are xxxx fulltime Lecturers in the department. It offers Courses in xxxxxx
+            </p>
+          </div>
+
+            <p>Thank you for doing Business with us</p>
+        
+      </div>
+    <h3>Register Now</h3>
+    <form class="pet" action="">
+        <fieldset>
+            <legend> Fill the form below carefully</legend>
+        <label for="fname">First Name:</label> <br>
+        <input type="text" id="fname" name="fname" value="Samuel"> <br><br>
+        <label for="lname">Last Name:</label> <br>
+        <input type="text" id="lname" name="lname" value="Asepe"><br><br>
+
+        <h3> Choose your favourite course</h3>
+        <input type="radio" id="cs" name="favourite" value="Computer Science"> 
+        <label for="cs">Computer Science</label> <br>
+        <input type="radio" id="as" name="favourite" value="Agric Science"> 
+        <label for="as">Agric Science</label> <br>
+        <input type="radio" id="ht" name="favourite" value="Holticulture"> 
+        <label for="ht">Holticulture</label> <br>
+
+        <h3> Select your Course Codes</h3>
+        <input type="checkbox" id="maths" name="maths" value="maths"> 
+        <label for="maths">MTH 101</label> <br>
+        <input type="checkbox" id="Gns" name="Gns" value="Gns"> 
+        <label for="Gns">GNS 201</label> <br>
+        <input type="checkbox" id="Gns" name="Gns" value="Gns"> 
+        <label for="Gns">GNS 221</label> <br>
+
+        <h3> Choose your prefered Hostel</h3>
+        <label for="hostel"> Choose One Hostel Only</label>
+        <select name="hostel" id="hostel" multiple>
+            <option value="A"> Hostel A</option>
+            <option value="B">Hostel B</option>
+            <option value="C">Hostel C</option>
+            <option value="D">Hollywood</option>
+        </select>
+        <br>
+        <h3> Attestation</h3>
+        <textarea name="attest" rows="10" cols="30"> I attest that... </textarea>
+
+
+         <br><button>Register</button>
+        </fieldset>
+    </form>
+    
+    <p> Vegetables</p>
+    <ul style="list-style-type:square;">
+        <li>Letus</li>
+        <li>Onions
+            <ul>
+                <li>White Onions</li>
+                <li>Local Onions</li>
+            </ul>
+        </li>
+        <li>Spinach</li>
+    </ul>
+    <p>Fruits</p>
+    <ol type="I">
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Pineapple</li>
+    </ol>
+    <dl>
+        <dt>Vegetables</dt>
+        <dd>Letus</dd>
+        <dd>Onions</dd>
+        <dd>Spinach</dd>
+        <dt>Fruits</dt>
+        <dd>Orange</dd>
+        <dd>Watermelon</dd>
+        <dd>Pineapple</dd>
+    </dl>
+    <table style="width: 100%;">
+        <tr>
+            <th>S/N</th>
+            <th style="width: 100%;">NAME</th>
+            <th>DEPARTMENT</th>
+            <th>LEVEL</th>
+
+        </tr>
+        <tr style="height: 30px;">
+            <td>1.</td>
+            <td>Ajayi Daniel</td>
+            <td>AGT</td>
+            <td>ND2</td>
+             </tr>
+             <tr>
+                <td>2.</td>
+                <td>Ojo Victor</td>
+                <td>Masscom</td>
+                <td>ND2</td>   
+             </tr>
+             <tr>
+                <td>3.</td>
+            <td>Ibrahim Idris</td>
+            <td>COSSA</td>
+            <td>ND2</td>
+             </tr>
+    </table>
+    <button onclick="alertus()">Subscribe</button>
+    
+    <script>
+        function alertus(){
+            alert("Welcome to My Website");
+        }
+            
+    </script>
+   <p id="text"> My Awesome Website</p>
+
+   <button onclick="ClickMe()"> Click Me</button>
+   <script>
+         function ClickMe() {
+            document.getElementById("text").innerHTML="You have used my website. Thank You!"
+         }
+        
+   </script>
+   
+   <!--<p><sub>This is subscript</sub> <sup>Ans this is superscript</sup></p>-->
+    <p>H <sub>2</sub>0
+    </p>
+    <p>Make your <mark> decision</mark> now</p>
+    <p>My choice is <del> red </del> blue</p>
+    <p><u>I have made my decision</u></p>
+    <a href="about.html" target="_blank"><i>Contact us </i> </a><br> <br>
+    <img src="peter.jpg" width="200px"height=100px alt="">
+</body>
+
+<footer>
+    <small> &copy; copyright reserved Siwes 2024 </small>
+</footer>
+</html>

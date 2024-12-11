@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(85,172,131);
+}
+h1 {
+    color: blue;
+    font-size: 80px;
+}
+h2{
+   font-size: 60px;
+   text-align: center;
+}
+div {
+    background-color: beige;
+}
+.pet {
+     background-color: cyan;
+     color: blueviolet;
+     border: solid 2px black;
+     margin: 20px;
+     padding: 10px;
+}
+.cep {
+    background-color: green;
+    color: white;
+    border: solid 2px white;
+    margin: 20px;
+    padding: 10px;
+}
+.pol {
+     background-color: blue;
+     color: white;
+     border: 2px solid red;
+     margin: 20px;
+     padding: 10px;
+}
+
+/**p{
+  color: #fff;
+  background-color: #500014;
+  border: solid;
+}**/
+    /** button{
+        border: 2px solid palevioletred;
+        padding: 35px;
+        margin: 50px;  
+     }**/
+     table, th, td{
+        border: solid 1px rgb(255, 255, 255);
+        border-collapse: collapse;
+     }
